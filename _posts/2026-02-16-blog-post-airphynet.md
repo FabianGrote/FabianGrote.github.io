@@ -47,7 +47,7 @@ In the literature up to AirPhyNet, forecasting air quality methods have used one
 **Physics-Based Models**\
 Inspired by atmospheric science, these traditional approaches portray the dynamics of air pollution as a set of complex differential equations (e.g., Vardoulakis et al., 2003; Liu et al., 2005). While they are grounded in the actual laws of nature, they require immense computational power to solve these equations numerically. Therefor they are often employed only on larger spatial scales, which restricts their ability to provide real-time and fine-grained prediction.
 
-**Data-DrivenModels**\
+**Data-Driven Models**\
 Deep learning allowed researches in the past years to utilize historical pollution data to learn complex relationships without needing prior knowledge of physical processes. Various types of neural networks have been explored, including GNNs (Ji et al., 2023), RNNs, and Attention-based models (Wang et al., 2022; Liang et al., 2023). However, these models have also clear limitations.
 Most require extensive training data to achieve accurate long-term predictions, making them less effective in sparse data scenarios.\
 The absence of physics constraints limits their generalizability to new environments.\
